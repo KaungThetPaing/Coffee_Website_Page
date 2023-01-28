@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background:#FFF8EA;
+    border-radius: 13px;
+    max-width: 1300px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+    border: 1px solid black;
+    align-items: center;
+    border: none;
+}
+
+img{
+    margin-left: 25px;
+    width: 70px;
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.button_1{
+    padding: 7px 0;
+    margin-left: 660px;
+}
+
+.button_2 {
+    padding: 7px 0;
+    margin-left: 30px;
+}
+
+.button_3 {
+    padding: 7px 0;
+    margin-left: 30px;
+ 
+}
+
+input{
+    padding:7px 0;
+    border-radius: 13px;
+    background-color: #EDE4E0;
+    border: none;
+}
+
+.Login_button{
+    padding: 7px 30px;
+    border-radius: 13px;
+    background-color: #EDE4E0;
+    border: none;
+}
+
+.Login_button:hover{
+    background: grey;
+    color: #EDE4E0;
+}
+
+Middle{
+    background:#9E7676;
+    border-radius: 13px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+    border: 1px solid black;
+    align-items: center;
+    border: none;
+}
+
+.left{
+    margin-top: 130px;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;;
+}
+
+.Order_button {
+    margin-top: 25px;
+    border-radius: 13px;
+    padding: 15px 25px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    background-color: #EDE4E0;
+}
+
+.Order_button:hover{
+    color: #FFF8EA;
+    background-color: #A7D2CB;
+}
+
+.coffee1{
+    margin-top: 45px;
+    width: 350px;
+    height: 280px;
+    margin-right: 100px;
+    border-radius: 13px;
+}
+
+.second_middle{
+        background: #815B5B;
+        border:1px solid black;
+        border-radius: 13px;
+        max-width: 1300px;
+        justify-content: space-between;
+        margin-left: 55px;
+        margin-right: 55px;
+        align-items: center;
+        border:none;
+}
+
+.coffee_card{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.espresso{
+    background:#FAF8F1;
+    border:1px solid black;
+    border-radius: 13px;
+    justify-content: center;
+    border: none;
+    margin-bottom: 25px;
+}
+
+:hover.espresso{
+    background-color: #9F8772;
+    color: #B7C4CF;
+    transition-duration: 0.25s;
+}
+
+.espresso img{
+    width: 150px;
+    height: 160px;
+    margin-top:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100px;
+}
+
+.espresso h1{
+    font-size: 25px;
+    margin: 5px 75px;
+}
+
+.espresso p{
+    margin: 0px 75px;
+}
+
+.americano {
+    background: #FAF8F1;
+    border: 1px solid black;
+    border-radius: 13px;
+    justify-content: center;
+    border: none;
+    margin-bottom: 25px;
+}
+
+:hover.americano {
+    background-color: #9F8772;
+    color: #B7C4CF;
+    transition-duration: 0.25s;
+}
+
+.americano img {
+    width: 150px;
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100px;
+}
+
+.americano h1 {
+    font-size: 25px;
+    margin: 5px 75px;
+}
+
+.americano p {
+    margin: 0px 75px;
+}
+
+.cappuccino {
+    background: #FAF8F1;
+    border: 1px solid black;
+    border-radius: 13px;
+    justify-content: center;
+    border: none;
+    margin-bottom: 25px;
+}
+
+:hover.cappuccino {
+    background-color: #9F8772;
+    color: #B7C4CF;
+    transition-duration: 0.25s;
+}
+
+.cappuccino img {
+    width: 150px;
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100px;
+}
+
+.cappuccino h1 {
+    font-size: 25px;
+    margin: 5px 75px;
+}
+
+.cappuccino p {
+    margin: 0px 75px;
+}
+
+footer{
+    border-radius: 1px solid black;
+    background: #594545;
+    border-radius: 13px;
+    max-width: 1300px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border: none;
+}
+
+.footer_up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side{
+    margin: 10px 10px;
+    color: #EDE4E0;
+}
+
+.right_side{
+    margin: 10px 10px;
+    display: block;
+}
+
+.up input{
+    background: #3C2A21;
+    color: #EEE3CB;
+}
+
+.up button{
+    padding: 10px 10px;
+    border-radius: 13px;
+    border: none;
+    background-color: red;
+    color: #EDE4E0;
+    margin-top: 5px;
+}
+
+:hover.up button{
+    background-color:white;
+    color:  black;
+    transition-duration: 0.25s;
+}
+
+.down{
+    display: flex;
+    width: 25px;
+    margin-top: 20px;
+}
+
+:hover.facebook{
+    background: white;
+}
+
+:hover.twitter {
+    background: white;
+}
+
+:hover.instagram {
+    background: white;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    color: #EDE4E0;
+}
+
+.login_form{
+    border: 1px solid black;
+    width: 450px;
+    height: 420px;
+    margin: 120px 600px;
+    background-color:#FFF8EA;
+    border-radius: 50px;
+    border: none;
+}
+
+.login_form img{
+    width: 120px;
+    margin-top: -50%;
+    margin-left: 35%;
+    border-radius: 25px;
+}
+
+.login_form h1{
+    font-size: 45px;
+    margin: 0px 50px;
+    font-weight:bold;   
+}
+
+.login_adjustment{
+    margin: 25px 25px;
+    
+}
+
+label{
+    margin-top: 25px;
+}
+
+.username{
+    width: 400px;
+    border-radius: 13px;
+    height: 35px;
+   
+}
+
+.password{
+    width: 400px;
+    border-radius: 13px;
+    height: 35px;
+}
+
+.radio_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_form button{
+    width: 400px;
+    background-color: #8B7E74;
+    border-radius: 13px;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+}
+
+.button_link{
+    text-decoration: none;
+    color: #4F0E0E;
+}
+
+:hover.login_button {
+    background: #FFEACA;
+    color: #4F0E0E;
+
+}
+
+.login_form p{
+    margin:15px 0px;
+}
+
+
+
+
+
+
+
+
